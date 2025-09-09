@@ -1,18 +1,20 @@
-// import reactLogo from './assets/react.svg'
+// App.jsx
+import React from 'react';
 
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
+    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-indigo-800 flex items-center justify-center text-white px-4">
+      <div className="text-center space-y-6">
+        <h1 className="text-4xl md:text-5xl font-bold">Welcome to Digiplix</h1>
+        <p className="text-lg md:text-xl">
+          Our official website is coming soon. Stay tuned!
+        </p>
+        <p className="text-sm opacity-80">
+          © {new Date().getFullYear()} Digiplix. All rights reserved.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-<h1 class="text-8xl m-10 font-bold ">
-Digiplix!
-  </h1>
-   
-    </>
-  )
-}
-
-export default App
+export default App;
