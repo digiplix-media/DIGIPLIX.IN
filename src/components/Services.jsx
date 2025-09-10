@@ -15,7 +15,7 @@
 //     id: "02",
 //     title: "Short-form Video Editing",
 //     desc: "Reels, TikTok, YouTube Shorts — motion graphics & punchy cuts.",
-//     media: "/src/assets/img2.jpg", // image
+//     media: "/assets/img2.jpg", // image
 //   },
 //   {
 //     id: "03",
@@ -27,7 +27,7 @@
 //     id: "04",
 //     title: "Social Media Graphics",
 //     desc: "Carousels, promos, product graphics, mockups, brochures.",
-//     media: "/src/assets/img2.jpg",
+//     media: "/assets/img2.jpg",
 //   },
 //   {
 //     id: "05",
@@ -39,7 +39,7 @@
 //     id: "06",
 //     title: "Product Shoots",
 //     desc: "Clean studio setups & lifestyle visuals that sell.",
-//     media: "/src/assets/img2.jpg",
+//     media: "/assets/img2.jpg",
 //   },
 //   {
 //     id: "07",
@@ -51,7 +51,7 @@
 //     id: "08",
 //     title: "UI/UX Design",
 //     desc: "Wireframes to high-fidelity prototypes that convert.",
-//     media: "/src/assets/img2.jpg",
+//     media: "/assets/img2.jpg",
 //   },
 //   {
 //     id: "09",
@@ -63,7 +63,7 @@
 //     id: "10",
 //     title: "Logo Design & Animation",
 //     desc: "Distinct branding + motion openers.",
-//     media: "/src/assets/img2.jpg",
+//     media: "/assets/img2.jpg",
 //   },
 // ];
 
@@ -277,7 +277,7 @@ const services = [
   { id: "02", 
     title: "Short-form Video Editing", 
     desc: "Reels, TikTok, YouTube Shorts — motion graphics & punchy cuts.", 
-    media: "/src/assets/img2.jpg" },
+    media: "/assets/img2.jpg" },
 
   { id: "03", 
     title: "Full Video Production",
@@ -285,13 +285,13 @@ const services = [
      media: "/src/assets/img1.jpg" },
 
 
-  { id: "04", title: "Social Media Graphics", desc: "Carousels, promos, product graphics, mockups, brochures.", media: "/src/assets/img2.jpg" },
+  { id: "04", title: "Social Media Graphics", desc: "Carousels, promos, product graphics, mockups, brochures.", media: "/assets/img2.jpg" },
   { id: "05", title: "UGC Creation", desc: "Native, authentic, high-performing user-style content.", media: "/src/assets/img1.jpg" },
-  { id: "06", title: "Product Shoots", desc: "Clean studio setups & lifestyle visuals that sell.", media: "/src/assets/img2.jpg" },
+  { id: "06", title: "Product Shoots", desc: "Clean studio setups & lifestyle visuals that sell.", media: "/assets/img2.jpg" },
   { id: "07", title: "Web Design & Development", desc: "Fast, responsive, SEO-friendly websites (React, Tailwind).", media: "/src/assets/img1.jpg" },
-  { id: "08", title: "UI/UX Design", desc: "Wireframes to high-fidelity prototypes that convert users.", media: "/src/assets/img2.jpg" },
+  { id: "08", title: "UI/UX Design", desc: "Wireframes to high-fidelity prototypes that convert users.", media: "/assets/img2.jpg" },
   { id: "09", title: "Social Media Management", desc: "Planning, posting, analytics & growth strategy.", media: "/src/assets/img1.jpg" },
-  { id: "10", title: "Logo Design & Animation", desc: "Distinct branding with motion openers and identity design.", media: "/src/assets/img2.jpg" },
+  { id: "10", title: "Logo Design & Animation", desc: "Distinct branding with motion openers and identity design.", media: "/assets/img2.jpg" },
 ];
 
 export default function Services() {
