@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
+@theme{
+--font-inter: Inter,"sens-serif";
+--font-roboto: Roboto,"sens-serif";
+}
 
+/* For Horizontal Text Scroll at Hero  */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animation-scroll {
+  animation: scroll 40s linear infinite;
+  display: inline-block;
+}
+
+/* ✨ Pause on hover */
+.animation-scroll:hover {
+  animation-play-state: paused;
+}
+
+
+
+
+/* For About */
+/* add to index.css (or global css) */
+.highlight {
+  background: linear-gradient(90deg, rgba(195,146,46,0.08), rgba(195,146,46,0.08));
+  color: #b45309; /* amber/darker gold tone – change to your brand color */
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-weight: 600;
+}
+
+
+/* work  */
+/* Hide scrollbar utility */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+/* hero gradeint  */
+@keyframes gradientMove {
+  0% {
+    background-position: 70% 40%, 15% 75%;
+  }
+  100% {
+    background-position: 60% 55%, 25% 60%;
+  }
+}
+
+
+/* clientsscroll */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  display: inline-block;
+  animation: scroll 25s linear infinite;
+}

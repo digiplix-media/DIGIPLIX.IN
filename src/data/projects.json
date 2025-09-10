@@ -1,0 +1,407 @@
+[
+    {
+      "id": 1,
+      "title": "Highest paying jobs after 12th",
+      "description": "Long-form YouTube edit with storytelling and motion graphics.",
+      "category": ["Social Media Videos", "Long-form Video Editing", "Content Creator"],
+      "thumbnail": "/public/thumbnail/youtube1.jpg",
+      "mediaType": "youtube",
+      "media": "https://www.youtube.com/embed/xtkBlOAEjDY?si=w_Oop9cQxK_ygPAf",
+      "year": "2025"
+    },
+    {
+      "id": 2,
+      "title": "Kolkata Doctor Case Full Story",
+      "description": "Full video edit for social media content.",
+      "category": ["Social Media Videos", "Long-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/youtube2.webp",
+      "mediaType": "youtube",
+      "media": "https://www.youtube.com/embed/AHOAZ1AT41k?si=jHADtL9i0k8hatOI",
+      "year": "2025"
+    },
+    {
+      "id": 3,
+      "title": "Career options after 12th?",
+      "description": "Edited video for YouTube.",
+      "category": ["Social Media Videos", "Long-form Video Editing","Content Creator"],
+      "thumbnail": "/public/thumbnail/youtube3.jpg",
+      "mediaType": "youtube",
+      "media": "https://www.youtube.com/embed/Y7p8bkeS33Q?si=I3S7ErQMKwIy9gTF",
+      "year": "2025"
+    },
+  
+    {
+      "id": 4,
+      "title": "Instagram Reel for Ads",
+      "description": "Short-form Instagram reel showcasing edits.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/Insta1.png",
+      "mediaType": "instagram",
+      "media": "DNs6Ejr3HlT",
+      "year": "2025"
+    },
+    {
+      "id": 5,
+      "title": "Instagram Reel for brand promotion",
+      "description": "Engaging short-form edit for brand promotion.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/Insta2.jpg",
+      "mediaType": "instagram",
+      "media": "DLz9TIRz2K3",
+      "year": "2025"
+    },
+    {
+      "id": 6,
+      "title": "Instagram Reel",
+      "description": "Creative short video edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/3.jpg",
+      "mediaType": "instagram",
+      "media": "DJrwg17sqkp",
+      "year": "2025"
+    },
+    {
+      "id": 7,
+      "title": "Instagram Reel",
+      "description": "Product shoot styled as engaging reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/4.png",
+      "mediaType": "instagram",
+      "media": "DMAIX_WNBQF",
+      "year": "2025"
+    },
+    {
+      "id": 8,
+      "title": "Instagram Reel",
+      "description": "Reel edit for lifestyle brand.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/5.jpg",
+      "mediaType": "instagram",
+      "media": "DHGuq6uyqAh",
+      "year": "2025"
+    },
+    {
+      "id": 9,
+      "title": "Instagram Reel",
+      "description": "Short brand video content.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/6.png",
+      "mediaType": "instagram",
+      "media": "DAIeT_IxRuB",
+      "year": "2025"
+    },
+    {
+      "id": 10,
+      "title": "Instagram Reel",
+      "description": "Short reel content for product.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/7.jpg",
+      "mediaType": "instagram",
+      "media": "DHGcUsGvff7",
+      "year": "2025"
+    },
+    {
+      "id": 11,
+      "title": "Instagram Reel",
+      "description": "Product showcase reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/8.png",
+      "mediaType": "instagram",
+      "media": "DNiak6ixYDo",
+      "year": "2025"
+    },
+    {
+      "id": 12,
+      "title": "Instagram Reel",
+      "description": "Lifestyle reel edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/9.jpg",
+      "mediaType": "instagram",
+      "media": "DMmdqUPRtma",
+      "year": "2025"
+    },
+    {
+      "id": 13,
+      "title": "Instagram Reel",
+      "description": "Stylish Instagram edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/10.jpg",
+      "mediaType": "instagram",
+      "media": "DLsEBQixWeE",
+      "year": "2025"
+    },
+    {
+      "id": 14,
+      "title": "Instagram Reel",
+      "description": "Short-form brand content.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/11.jpg",
+      "mediaType": "instagram",
+      "media": "DLUchYVt80Z",
+      "year": "2025"
+    },
+    {
+      "id": 15,
+      "title": "Instagram Reel",
+      "description": "Engaging product shoot reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/12.jpg",
+      "mediaType": "instagram",
+      "media": "DLSLRDuNzPp",
+      "year": "2025"
+    },
+    {
+      "id": 16,
+      "title": "Instagram Reel",
+      "description": "Creative edit with storytelling.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Product Shoots"],
+      "thumbnail": "/public/thumbnail/13.jpg",
+      "mediaType": "instagram",
+      "media": "DJJxiVwzmTZ",
+      "year": "2025"
+    },
+  
+    {
+      "id": 17,
+      "title": "Instagram Reel",
+      "description": "Fun social media short edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing"],
+      "thumbnail": "/public/thumbnail/14.jpg",
+      "mediaType": "instagram",
+      "media": "DMaaR0oBI-S",
+      "year": "2025"
+    },
+    {
+      "id": 18,
+      "title": "Instagram Reel",
+      "description": "Entertaining short-form video.",
+      "category": ["Social Media Videos", "Short-form Video Editing"],
+      "thumbnail": "/public/thumbnail/15.jpg",
+      "mediaType": "instagram",
+      "media": "DMpz6uds2wm",
+      "year": "2025"
+    },
+  
+    {
+      "id": 19,
+      "title": "Instagram Reel",
+      "description": "Content creator reel edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/16.jpg",
+      "mediaType": "instagram",
+      "media": "DOTM_7oAeJC",
+      "year": "2025"
+    },
+    {
+      "id": 20,
+      "title": "Instagram Reel",
+      "description": "Promotional reel for social growth.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/17.jpg",
+      "mediaType": "instagram",
+      "media": "DOLizV5k8_g",
+      "year": "2025"
+    },
+    {
+      "id": 21,
+      "title": "Instagram Reel",
+      "description": "Creative branded content.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/18.jpg",
+      "mediaType": "instagram",
+      "media": "DMP2tOov-3k",
+      "year": "2025"
+    },
+    {
+      "id": 22,
+      "title": "Instagram Reel",
+      "description": "Social media growth reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/19.png",
+      "mediaType": "instagram",
+      "media": "DKWCQ95Bh8d",
+      "year": "2025"
+    },
+    {
+      "id": 23,
+      "title": "Instagram Reel",
+      "description": "Entertaining lifestyle reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/20.png",
+      "mediaType": "instagram",
+      "media": "DHCm3DXBb5X",
+      "year": "2025"
+    },
+    {
+      "id": 24,
+      "title": "Instagram Reel",
+      "description": "Content creator brand edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/21",
+      "mediaType": "instagram",
+      "media": "DG9kXlth76O",
+      "year": "2025"
+    },
+    {
+      "id": 25,
+      "title": "Instagram Reel",
+      "description": "Promotional UGC style reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/22",
+      "mediaType": "instagram",
+      "media": "DAmu23iz6cm",
+      "year": "2025"
+    },
+    {
+      "id": 26,
+      "title": "Instagram Reel",
+      "description": "Creative product showcase reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/23",
+      "mediaType": "instagram",
+      "media": "DAXSOPQvp05",
+      "year": "2025"
+    },
+    {
+      "id": 27,
+      "title": "Instagram Reel",
+      "description": "Fun engaging reel edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/24",
+      "mediaType": "instagram",
+      "media": "DHFLnwvTpy8",
+      "year": "2025"
+    },
+    {
+      "id": 28,
+      "title": "Instagram Reel",
+      "description": "Engaging short-form storytelling.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/25",
+      "mediaType": "instagram",
+      "media": "DDtGDD1ywzw",
+      "year": "2025"
+    },
+    {
+      "id": 29,
+      "title": "Instagram Reel",
+      "description": "Entertaining product reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/26",
+      "mediaType": "instagram",
+      "media": "DNVsomUpBtt",
+      "year": "2025"
+    },
+    {
+      "id": 30,
+      "title": "Instagram Reel",
+      "description": "Lifestyle creator edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/27",
+      "mediaType": "instagram",
+      "media": "DN2c5xM4rLS",
+      "year": "2025"
+    },
+    {
+      "id": 31,
+      "title": "Instagram Reel",
+      "description": "Short-form content creator reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/28",
+      "mediaType": "instagram",
+      "media": "DNtDfxPZGYy",
+      "year": "2025"
+    },
+    {
+      "id": 32,
+      "title": "Instagram Reel",
+      "description": "Social growth product reel.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/29",
+      "mediaType": "instagram",
+      "media": "DNWHcD6S4PO",
+      "year": "2025"
+    },
+    {
+      "id": 33,
+      "title": "Instagram Reel",
+      "description": "UGC style content edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/30",
+      "mediaType": "instagram",
+      "media": "DJMTLutvMYm",
+      "year": "2025"
+    },
+    {
+      "id": 34,
+      "title": "Instagram Reel",
+      "description": "Brand promotion reel edit.",
+      "category": ["Social Media Videos", "Short-form Video Editing", "Social Media Management", "Content Creator"],
+      "thumbnail": "/public/thumbnail/31",
+      "mediaType": "instagram",
+      "media": "DLWbuFMvFrn",
+      "year": "2025"
+    },
+  
+    {
+      "id": 35,
+      "title": "Coming Soon",
+      "description": "More projects will be added soon.",
+      "category": ["Social Media Graphics"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    },
+    {
+      "id": 36,
+      "title": "Coming Soon",
+      "description": "Projects will be updated soon.",
+      "category": ["UGC Creation"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    },
+    {
+      "id": 37,
+      "title": "Coming Soon",
+      "description": "Projects will be updated soon.",
+      "category": ["Web Design"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    },
+    {
+      "id": 38,
+      "title": "Coming Soon",
+      "description": "Projects will be updated soon.",
+      "category": ["Web Development"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    },
+    {
+      "id": 39,
+      "title": "Coming Soon",
+      "description": "Projects will be updated soon.",
+      "category": ["UI/UX Design"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    },
+    {
+      "id": 40,
+      "title": "Coming Soon",
+      "description": "Projects will be updated soon.",
+      "category": ["Logo Design and Animation"],
+      "thumbnail": "/public/thumbnail/coming-soon.jpg",
+      "mediaType": "video",
+      "media": "/public/comingsoon.mp4",
+      "year": "2025"
+    }
+  ]
+  
