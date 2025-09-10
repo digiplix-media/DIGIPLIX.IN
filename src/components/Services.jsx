@@ -9,7 +9,7 @@
 //     id: "01",
 //     title: "Long-form Video Editing",
 //     desc: "YouTube strategy, pacing, storytelling & retention.",
-//     media: "/src/assets/img1.jpg", // video
+//     media: "/assets/img1.jpg", // video
 //   },
 //   {
 //     id: "02",
@@ -21,7 +21,7 @@
 //     id: "03",
 //     title: "Full Video Production",
 //     desc: "From pre-production to final export — end-to-end.",
-//     media: "/src/assets/img1.jpg",
+//     media: "/assets/img1.jpg",
 //   },
 //   {
 //     id: "04",
@@ -33,7 +33,7 @@
 //     id: "05",
 //     title: "UGC Creation",
 //     desc: "Native, authentic, high-performing user-style content.",
-//     media: "/src/assets/img1.jpg",
+//     media: "/assets/img1.jpg",
 //   },
 //   {
 //     id: "06",
@@ -45,7 +45,7 @@
 //     id: "07",
 //     title: "Web Design & Development",
 //     desc: "Fast, responsive, SEO-friendly sites (React, Tailwind).",
-//     media: "/src/assets/img1.jpg",
+//     media: "/assets/img1.jpg",
 //   },
 //   {
 //     id: "08",
@@ -57,7 +57,7 @@
 //     id: "09",
 //     title: "Social Media Management",
 //     desc: "Planning, posting, analytics & growth.",
-//     media: "/src/assets/img1.jpg",
+//     media: "/assets/img1.jpg",
 //   },
 //   {
 //     id: "10",
@@ -272,7 +272,7 @@ const services = [
   { id: "01", 
     title: "Long-form Video Editing", 
     desc: "YouTube strategy, pacing, storytelling & audience retention.", 
-    media: "/src/assets/img1.jpg" },
+    media: "/assets/img1.jpg" },
 
   { id: "02", 
     title: "Short-form Video Editing", 
@@ -282,15 +282,15 @@ const services = [
   { id: "03", 
     title: "Full Video Production",
      desc: "End-to-end creative from pre-production to final export.", 
-     media: "/src/assets/img1.jpg" },
+     media: "/assets/img1.jpg" },
 
 
   { id: "04", title: "Social Media Graphics", desc: "Carousels, promos, product graphics, mockups, brochures.", media: "/assets/img2.jpg" },
-  { id: "05", title: "UGC Creation", desc: "Native, authentic, high-performing user-style content.", media: "/src/assets/img1.jpg" },
+  { id: "05", title: "UGC Creation", desc: "Native, authentic, high-performing user-style content.", media: "/assets/img1.jpg" },
   { id: "06", title: "Product Shoots", desc: "Clean studio setups & lifestyle visuals that sell.", media: "/assets/img2.jpg" },
-  { id: "07", title: "Web Design & Development", desc: "Fast, responsive, SEO-friendly websites (React, Tailwind).", media: "/src/assets/img1.jpg" },
+  { id: "07", title: "Web Design & Development", desc: "Fast, responsive, SEO-friendly websites (React, Tailwind).", media: "/assets/img1.jpg" },
   { id: "08", title: "UI/UX Design", desc: "Wireframes to high-fidelity prototypes that convert users.", media: "/assets/img2.jpg" },
-  { id: "09", title: "Social Media Management", desc: "Planning, posting, analytics & growth strategy.", media: "/src/assets/img1.jpg" },
+  { id: "09", title: "Social Media Management", desc: "Planning, posting, analytics & growth strategy.", media: "/assets/img1.jpg" },
   { id: "10", title: "Logo Design & Animation", desc: "Distinct branding with motion openers and identity design.", media: "/assets/img2.jpg" },
 ];
 
