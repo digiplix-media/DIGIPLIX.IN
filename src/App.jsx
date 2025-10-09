@@ -1,7 +1,7 @@
 // src/App.jsx
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-// import SplashCursor from './components/SplashCursor'
+// import SplashCursor from './components/ SplashCursor';
 import AutoScroll from './components/AutoScroll'
 
 import WordScroll from './components/WordScroll';
@@ -25,6 +25,7 @@ import Services from './components/Services'
 // import Portfolio from './components/Portfolio'
 // import Contact from './components/Contact'
 
+import DevelopmentBanner from './components/DevelopmentBanner'
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
      
       <Navbar />
      
-
+      <DevelopmentBanner/>
       {/* Main Content */}
       <main>
         {/* Hero Section */}
