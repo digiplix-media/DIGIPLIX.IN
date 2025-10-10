@@ -25,7 +25,7 @@ import Services from './components/Services'
 // import Portfolio from './components/Portfolio'
 // import Contact from './components/Contact'
 
-import DevelopmentBanner from './components/DevelopmentBanner'
+// import DevelopmentBanner from './components/DevelopmentBanner'
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
      
       <Navbar />
      
-      <DevelopmentBanner/>
+      {/* <DevelopmentBanner/> */}
       {/* Main Content */}
       <main>
         {/* Hero Section */}
