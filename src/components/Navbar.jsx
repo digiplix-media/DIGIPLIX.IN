@@ -118,7 +118,7 @@ export default function Navbar() {
                 <a
                   key={name}
                   href={`#${name.toLowerCase()}`}
-                  className="text-gray-800 font-medium cursor-pointer"
+                  className="text-gray-900 font-medium cursor-pointer"
                 >
                   {splitLetters(name)}
                 </a>

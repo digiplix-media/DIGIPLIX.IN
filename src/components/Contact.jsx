@@ -71,16 +71,17 @@ export default function Contact() {
     <section
       id="contact"
       ref={root}
-      className="bg-white text-black py-20 md:py-28 font-roboto"
+      className="bg-white text-black pt-20 pb-5 sm:pb-0 md:py-14 font-roboto"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16 md:mb-24 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 md:mb-24 items-start">
           <div>
             <h2
               ref={title}
               className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.9] text-black tracking-tight"
             >
+              {/* text-4xl md:text-6xl lg:text-7xl  */}
               Great Work Starts with a <span className="text-blue-600">Hello</span>
             </h2>
           </div>
@@ -88,8 +89,9 @@ export default function Contact() {
           <div className="lg:pt-4">
             <p
               ref={para}
-              className="text-base md:text-lg text-gray-600 leading-relaxed"
+              className="text-xl sm:text-lg md:text-xl lg:text-lg text-gray-800 leading-relaxed"
             >
+               {/* text-xl sm:text-lg md:text-xl lg:text-lg */}
               <span className="font-semibold text-blue-600">Great design </span>
               starts with a conversation. Whether you have a project in mind or
               just want to connect, we&apos;d love to hear from you.
@@ -180,7 +182,7 @@ export default function Contact() {
           >
             <div>
               <h3 className="text-2xl font-bold mb-4">Let’s Talk</h3>
-              <p className="text-gray-600 text-lg">
+              <p className="text-gray-800 text-lg">
                 Have an idea? Let’s bring it to life together.
               </p>
             </div>
@@ -188,30 +190,30 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Mail className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-700 text-lg">Connect@digiplix.com</span>
+                <span className="text-gray-800 text-lg">Connect@digiplix.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-700 text-lg">+91 89899 13443</span>
+                <span className="text-gray-800 text-lg">+91 89899 13443</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-700 text-lg">Bhopal, India</span>
+                <span className="text-gray-800 text-lg">Indore, India</span>
               </div>
             </div>
 
             {/* Socials */}
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Twitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Dribbble className="w-6 h-6" />
               </a>
             </div>

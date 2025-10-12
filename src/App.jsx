@@ -2,10 +2,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 // import SplashCursor from './components/ SplashCursor';
-import AutoScroll from './components/AutoScroll'
+// import AutoScroll from './components/AutoScroll'
 
-import WordScroll from './components/WordScroll';
-import WordScrollTwo from './components/WordScrollTwo';
+// import WordScroll from './components/WordScroll';
+// import WordScrollTwo from './components/WordScrollTwo';
 import Clients from './components/Clients';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -26,10 +26,16 @@ import Services from './components/Services'
 // import Contact from './components/Contact'
 
 // import DevelopmentBanner from './components/DevelopmentBanner'
+// import HeroVideo from './components/HeroVideo';
+
+import HeroVideoSection from "./components/HeroVideoSection";
+
+
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#EEEEF4] font-serif">
+    <div className="min-h-screen bg-[#EEEEF4] ">
 
 {/* <SmoothScroll /> */}
     
@@ -40,10 +46,18 @@ function App() {
       {/* Main Content */}
       <main>
         {/* Hero Section */}
-        <Hero />
+        {/* <Hero /> */}
+
+        <div className="min-h-dvh bg-white text-neutral-900">
+      <Hero />
+      <HeroVideoSection />
+      {/* other sections continue... */}
+    </div>
+      
+
     
           <ContactCircle/>
-        <AutoScroll/>
+        {/* <AutoScroll/> */}
         
         {/* <SplashCursor /> */}
         {/* <CustomCursor/> */}
@@ -52,10 +66,10 @@ function App() {
      
         <About />
   
-        <WordScroll />
+        {/* <WordScroll /> */}
 
         <Services />
-        <WordScrollTwo />
+        {/* <WordScrollTwo /> */}
 
         <Work/>
   

@@ -122,19 +122,20 @@ export default function Work() {
   };
 
   return (
-    <section id="work" ref={rootRef} className="py-28 bg-white text-black font-roboto">
+    <section id="work" ref={rootRef} className="pt-20  bg-white text-black font-roboto">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
           <div className="lg:col-span-7">
-            <h2 ref={splitHeading} className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight text-black">
+            {/* text-4xl md:text-6xl lg:text-7xl */}
+            <h2 ref={splitHeading} className="text-[38px] md:text-6xl lg:text-7xl font-extrabold leading-tight sm:tracking-tight text-black">
               Selected <span className="text-blue-600"> Work</span> <br /> That <span className="text-blue-600"> Inspires</span>
             </h2>
           </div>
-          <div className="lg:col-span-5 pt-3">
+          <div className="lg:col-span-5 sm:pt-3">
           
-            <p ref={splitText} className="text-base md:text-lg text-gray-600 leading-relaxed">
-          
+            <p ref={splitText} className="text-xl sm:text-lg md:text-xl lg:text-lg  text-gray-800 leading-relaxed">
+          {/* text-xl sm:text-lg md:text-xl lg:text-lg */}
                At <span className="font-semibold text-black">
             <span className="text-black">Di</span>
              <span className="text-blue-600">g</span>
@@ -154,7 +155,7 @@ export default function Work() {
               <button
                 key={cat}
                 onClick={() => setActiveFilter(cat)}
-                className={`px-5 py-2 rounded-full text-sm font-medium whitespace-nowrap min-w-max transition ${
+                className={`px-5 py-2 rounded-full text-md sm:text-sm font-medium whitespace-nowrap min-w-max transition ${
                   activeFilter === cat ? "bg-blue-600 text-white shadow" : "bg-gray-100 text-gray-800 hover:bg-gray-200"
                 }`}
               >
@@ -164,11 +165,11 @@ export default function Work() {
           </div>
 
           {/* Mobile scroll hint */}
-          <div className="sm:hidden flex items-center justify-center gap-2 text-gray-800 text-xs mt-2">
+          <div className="sm:hidden flex items-center justify-center gap-2 text-blue-700 text-md mt-2">
             <button onClick={scrollLeft} className="p-1 rounded hover:bg-gray-100">
               <ChevronLeft size={14} />
             </button>
-            <span>Scroll →</span>
+            <span >Scroll →</span>
             <button onClick={scrollRight} className="p-1 rounded hover:bg-gray-100">
               <ChevronRight size={14} />
             </button>
