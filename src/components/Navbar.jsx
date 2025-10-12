@@ -6,17 +6,17 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
+    { name: "Home", href: "#home" }, // Added Home only for mobile
     { name: "Work", href: "#work" },
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
   ];
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
 
-    // NAV LINKS LETTER-BY-LETTER ROLL + COLOR
+    // NAV LINKS LETTER ANIMATION
     const navLinks = document.querySelectorAll("nav a");
     navLinks.forEach((link) => {
       const letters = link.querySelectorAll("span");
@@ -25,7 +25,6 @@ export default function Navbar() {
       link.addEventListener("mouseenter", () => {
         if (link.dataset.hovered === "true") return;
         link.dataset.hovered = "true";
-
         gsap.to(letters, {
           rotateX: 360,
           stagger: 0.05,
@@ -42,7 +41,7 @@ export default function Navbar() {
       });
     });
 
-    // LET’S TALK BUTTON LETTER-BY-LETTER ROLL + BG CHANGE
+    // CTA Button Hover Animation
     const ctaButton = document.querySelector(".cta-button");
     if (ctaButton) {
       const letters = ctaButton.querySelectorAll("span");
@@ -51,13 +50,13 @@ export default function Navbar() {
       ctaButton.addEventListener("mouseenter", () => {
         if (ctaButton.dataset.hovered === "true") return;
         ctaButton.dataset.hovered = "true";
-
         gsap.to(letters, {
           rotateX: 360,
           stagger: 0.05,
           duration: 0.4,
           ease: "power2.inOut",
-          onStart: () => gsap.to(ctaButton, { backgroundColor: "#2563EB", duration: 0 }),
+          onStart: () =>
+            gsap.to(ctaButton, { backgroundColor: "#2563EB", duration: 0 }),
           onComplete: () => gsap.set(letters, { rotateX: 0 }),
         });
       });
@@ -72,15 +71,29 @@ export default function Navbar() {
   }, []);
 
   const splitLetters = (word) =>
-    word.split("").map((letter, idx) => (
-      <span key={idx} className="inline-block transform-style-preserve-3d">
-        {letter}
-      </span>
-    ));
+    word.split("").map((letter, idx) => {
+      // Add a small right margin when the letter is a space
+      if (letter === " ") {
+        return (
+          <span
+            key={idx}
+            className="inline-block w-1" // adjust spacing width
+          >
+            &nbsp;
+          </span>
+        );
+      }
+      return (
+        <span key={idx} className="inline-block transform-style-preserve-3d">
+          {letter}
+        </span>
+      );
+    });
+  
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all font-roboto duration-300 ${
         isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
     >
@@ -94,19 +107,20 @@ export default function Navbar() {
             <span className="text-black">Di</span>
             <span className="text-blue-600">g</span>
             <span className="text-black">ipli</span>
-            <span className="text-blue-600">x</span>
+            <span className="text-[#155dfc]">x</span>
           </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block ">
             <div className="ml-10 flex items-center space-x-10">
-              {navItems.map((item) => (
+              {/* Desktop keeps Contact */}
+              {["Work", "Services", "About", "Contact"].map((name) => (
                 <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-800 font-medium  cursor-pointer"
+                  key={name}
+                  href={`#${name.toLowerCase()}`}
+                  className="text-gray-900 font-medium cursor-pointer"
                 >
-                  {splitLetters(item.name)}
+                  {splitLetters(name)}
                 </a>
               ))}
             </div>
@@ -116,7 +130,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <a
               href="#contact"
-              className="cta-button bg-black text-white px-6 py-2 rounded-full text-sm font-medium transition"
+              className="cta-button bg-gray-900 text-white px-6 py-2 rounded-full text-sm font-medium transition"
             >
               {splitLetters("Let’s Talk")}
             </a>
@@ -136,24 +150,31 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-          isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        className={`md:hidden absolute top-16 left-0 right-0 flex justify-center transition-all duration-500 ease-in-out ${
+          isMobileMenuOpen
+            ? "opacity-100 visible translate-y-0"
+            : "opacity-0 invisible -translate-y-5"
         }`}
       >
-        <div className="px-6 py-4 bg-white/95 backdrop-blur-md space-y-3 shadow-sm">
+        <div
+          className="bg-blue-600 backdrop-blur-lg border border-white/40 rounded-3xl shadow-lg px-10 py-8 text-center space-y-6 w-[90%] sm:w-[70%] md:w-[60%] mt-3 transition-all"
+        >
           {navItems.map((item) => (
             <a
               key={item.name}
               href={item.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block px-3 py-2 text-gray-800 hover:text-black font-medium transition"
+              className="block text-lg font-medium text-white hover:text-gray-200 transition"
             >
               {item.name}
             </a>
           ))}
+
+          {/* Keep white Let's Talk button */}
           <a
             href="#contact"
-            className="block text-center bg-black text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-blue-600 transition"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="inline-block bg-white text-black px-6 py-2 rounded-xl text-sm font-medium shadow-sm hover:bg-blue-600 hover:text-white transition"
           >
             Let’s Talk
           </a>

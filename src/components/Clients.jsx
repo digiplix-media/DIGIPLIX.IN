@@ -50,17 +50,18 @@ export default function Clients() {
   }, []);
 
   return (
-    <section ref={rootRef} className="py-20 md:py-32 bg-white font-roboto">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section ref={rootRef} className="pt-16 md:py-24 bg-white font-roboto">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-6">
         
         {/* Header Section - Left heading, Right paragraph */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16 md:mb-24 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 md:mb-24 items-start">
           {/* Left Heading */}
           <div>
             <h2
               ref={headingRef}
-              className="text-5xl md:text-6xl lg:text-7xl  font-extrabold leading-[0.9] text-black tracking-tight"
+              className="text-4xl md:text-6xl lg:text-7xl  font-extrabold sm:leading-[0.9] text-black sm:tracking-tight "
             >
+              {/* text-4xl md:text-6xl lg:text-7xl  */}
               <span className="text-blue-600"> Brands</span> We’ve <br /> Partnered With
             </h2>
           </div>
@@ -69,8 +70,9 @@ export default function Clients() {
           <div className="lg:pt-4">
             <p
               ref={textRef}
-              className="text-base md:text-lg text-gray-600 leading-relaxed"
+              className="text-xl sm:text-lg md:text-xl lg:text-lg text-gray-800 leading-relaxed "
             >
+              {/* text-xl sm:text-lg md:text-xl lg:text-lg */}
                At <span className="font-semibold text-black">
             <span className="text-black">Di</span>
              <span className="text-blue-600">g</span>
@@ -98,7 +100,8 @@ export default function Clients() {
                 <img
                   src={client.logo}
                   alt={`${client.name} logo`}
-                  className="h-14 md:h-16 w-auto opacity-70 hover:opacity-100 filter grayscale hover:grayscale-0 transition duration-300"
+                  className="h-14 md:h-16 w-auto     transition duration-300"
+                  // className="h-14 md:h-16 w-auto opacity-70 hover:opacity-100 filter grayscale hover:grayscale-0 transition duration-300"
                 />
               </div>
             ))}

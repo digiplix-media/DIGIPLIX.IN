@@ -1,4 +1,3 @@
-// ContactCircle.jsx
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
@@ -11,47 +10,60 @@ export default function ContactCircle() {
         rotation: 360,
         repeat: -1,
         ease: "linear",
-        duration: 10, // speed of rotation
+        duration: 10, // moderate smooth speed
+        transformOrigin: "center center",
       });
     }
   }, []);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 font-roboto">
+    <div className="fixed bottom-5 right-5 z-50 font-roboto">
       <a
         href="#contact"
-        className="relative flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white text-black shadow-lg hover:bg-blue-600 hover:text-white transition-colors duration-300 border-blue-600 border"
+        className=" relative flex items-center justify-center
+                   w-20 h-20 sm:w-22 sm:h-22 rounded-full
+                   bg-gradient-to-br from-blue-500 via-blue-600 to-blue-800
+                   shadow-[0_0_20px_rgba(37,99,235,0.5)]
+                   hover:shadow-[0_0_35px_rgba(37,99,235,0.8)]
+                   transition-all duration-300"
       >
-        {/* Rotating Text */}
-        <div
-          ref={textRef}
-          className="absolute inset-0 flex items-center justify-center text-[30px] font-medium tracking-widest uppercase"
-          style={{
-            transformOrigin: "center",
-            animation: "spin 10s linear infinite",
-          }}
-        >
-          <svg
-            className="w-full h-full"
-            viewBox="0 0 100 100"
-            xmlns="http://www.w3.org/2000/svg"
+        {/* Inner white layer */}
+        <div className="absolute inset-[5px]  bg-white rounded-full flex items-center justify-center">
+          {/* Rotating Text */}
+          <div
+            ref={textRef}
+            className="absolute inset-0 flex items-center justify-center "
           >
-            <defs>
-              <path
-                id="circlePath"
-                d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0"
-              />
-            </defs>
-            <text fill="currentColor" fontSize="8" fontWeight="bold">
-              <textPath href="#circlePath" startOffset="0%">
-                Contact US • Contact US • Contact US •
-              </textPath>
-            </text>
-          </svg>
-        </div>
+            <svg
+              className="w-full h-full"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <path
+                  id="circlePath"
+                  d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"
+                />
+              </defs>
+              <text
+                // fill="#2563EB"
+                fill="#2d3748"
+                fontSize="8"
+                fontWeight="bold"
+                letterSpacing="2"
+              >
+                <textPath href="#circlePath" startOffset="0%">
+                  CONTACT •CONTACT •CONTACT •CONTACT •
+                </textPath>
+              </text>
+            </svg>
+          </div>
 
-        {/* Center Icon */}
-        <span className="text-2xl">→</span>
+        </div>
+          {/* Fixed Center Arrow */}
+          <span className="text-xl sm:text-2xl text-blue-600 relative z-10">
+            →
+          </span>
       </a>
     </div>
   );

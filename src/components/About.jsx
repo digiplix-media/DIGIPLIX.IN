@@ -94,106 +94,91 @@ export default function About() {
     <section
       id="about"
       ref={root}
-      className="relative bg-white text-black py-24 md:py-32 font-roboto overflow-hidden"
+      className="relative bg-white text-black pt- sm:py-20 font-roboto overflow-hidden overflow-x-hidden"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         {/* Split layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          <div className="lg:col-span-7">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+          <div className="lg:col-span-7 text-left">
             <h1
               ref={splitHeading}
-              className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight sm:tracking-tight"
             >
-              The ideas shaping the <br /> <span className="text-blue-600">future</span> of digital brands
+              The ideas shaping the <br />
+              <span className="text-blue-600">future</span> of digital brands
             </h1>
           </div>
-          <div className="lg:col-span-5 pt-4">
+          <div className="lg:col-span-5  lg:mt-0 text-left">
             <p
               ref={splitText}
-              className="text-base md:text-lg text-gray-600 leading-relaxed"
+              className="text-xl sm:text-lg md:text-xl lg:text-lg text-gray-800 leading-relaxed"
             >
-              At <span className="font-semibold text-black">
+              {/* text-[23px] sm:text-lg md:text-xl text-xl sm:text-lg md:text-xl lg:text-xl*/}
+              At{" "}
+              <span className="font-semibold text-black">
                 <span className="text-black">Di</span>
                 <span className="text-blue-600">g</span>
                 <span className="text-black">ipli</span>
-                <span className="text-blue-600">x</span></span>, we
-              believe design is more than aesthetics — it’s how brands grow,
+                <span className="text-blue-600">x</span>
+              </span>
+              , we believe design is more than aesthetics, it’s how brands grow,
               connect, and stand out in a noisy world. We craft strategies,
               visuals, and experiences that spark engagement and drive results.
             </p>
           </div>
         </div>
 
-        {/* Centered identity section */}
-        <div className="mt-24 text-center max-w-4xl mx-auto">
+        {/* Identity section */}
+        <div className="mt-12 sm:mt-16 md:mt-24 text-left lg:text-center max-w-3xl mx-auto px-2 lg:px-0">
           <h2
             ref={centerHeading}
-            className="text-4xl md:text-6xl font-extrabold mb-6"
+            className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6"
           >
             We’re <span className="text-black">Di</span>
-                <span className="text-blue-600">g</span>
-                <span className="text-black">ipli</span>
-                <span className="text-blue-600">x</span>
+            <span className="text-blue-600">g</span>
+            <span className="text-black">ipli</span>
+            <span className="text-blue-600">x</span>
           </h2>
           <p
             ref={centerText}
-            className="text-lg md:text-xl leading-relaxed text-gray-700"
+            className="text-xl sm:text-lg md:text-xl lg:text-xl leading-relaxed text-gray-800"
           >
+            {/* text-xl sm:text-lg md:text-xl lg:text-lg */}
             A creative agency built for brands that dare to be bold. From{" "}
             <span className="font-semibold text-blue-600">content strategy</span> to{" "}
-            <span className="font-semibold text-blue-600">video-first campaigns</span>,
-            we partner with businesses to create work that inspires, informs,
+            <span className="font-semibold text-blue-600">
+              video-first campaigns
+            </span>
+            , we partner with businesses to create work that inspires, informs,
             and leaves a lasting mark in culture.
           </p>
         </div>
 
+       
         {/* Stats */}
-        <div className="mt-20 flex flex-wrap justify-center gap-12 text-center">
-          <div>
-            <div
-              ref={(el) => setStatRef(el, 0)}
-              data-target="50"
-              data-suffix="+"
-              className="text-4xl md:text-5xl font-extrabold text-blue-600"
-            >
-              0+
-            </div>
-            <p className="text-base text-gray-600 mt-1">Clients</p>
-          </div>
-          <div>
-            <div
-              ref={(el) => setStatRef(el, 1)}
-              data-target="5"
-              data-suffix="+"
-              className="text-4xl md:text-5xl font-extrabold text-blue-600"
-            >
-              0+
-            </div>
-            <p className="text-base text-gray-600 mt-1">Years Experience</p>
-          </div>
-          <div>
-            <div
-              ref={(el) => setStatRef(el, 2)}
-              data-target="1200"
-              data-suffix="+"
-              className="text-4xl md:text-5xl font-extrabold text-blue-600"
-            >
-              0+
-            </div>
-            <p className="text-base text-gray-600 mt-1">Projects</p>
-          </div>
-          <div>
-            <div
-              ref={(el) => setStatRef(el, 3)}
-              data-target="15"
-              data-suffix="+"
-              className="text-4xl md:text-5xl font-extrabold text-blue-600"
-            >
-              0+
-            </div>
-            <p className="text-base text-gray-600 mt-1">Team Members</p>
-          </div>
-        </div>
+<div className="mt-10 sm:mt-16 md:mt-20 grid grid-cols-2 gap-8 sm:gap-12 text-center lg:flex lg:flex-wrap lg:justify-center pr-7 sm:pr-0">
+  {[
+    { target: 50, label: "Clients" },
+    { target: 5, label: "Years Experience" },
+    { target: 1200, label: "Projects" },
+    { target: 15, label: "Team Members" },
+  ].map((stat, i) => (
+    <div key={i} className="col-span-1">
+      <div
+        ref={(el) => setStatRef(el, i)}
+        data-target={stat.target}
+        data-suffix="+"
+        className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-600"
+      >
+        0+
+      </div>
+      <p className="text-md sm:text-sm md:text-base text-gray-800 mt-1">
+        {stat.label}
+      </p>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );
