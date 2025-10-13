@@ -27,8 +27,8 @@ export default function Footer() {
     ScrollTrigger.create({
       trigger: el,
       start: "bottom bottom",
-      onEnter: () => gsap.set(el, { backgroundColor: "#2563eb", color: "#ffffff" }),
-      onLeaveBack: () => gsap.set(el, { backgroundColor: "#FF0000", color: "#000000" }),
+      onEnter: () => gsap.set(el, { backgroundColor: "#155dfc", color: "#ffffff" }),
+      onLeaveBack: () => gsap.set(el, { backgroundColor: "#ffffff", color: "#000000" }),
     });
   }, []);
 
