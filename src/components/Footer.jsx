@@ -50,7 +50,8 @@ export default function Footer() {
         <div className="hidden  sm:grid grid-cols-3 sm:grid-cols-3 gap-8 sm:gap-10 text-base md:text-lg font-medium mt-8 sm:mt-20">
           <div>
             <h4 className="text-sm uppercase tracking-wide mb-1 sm:mb-2 opacity-80">Contact Us</h4>
-            <p className="hover:underline cursor-pointer text-sm sm:text-base">connect@digiplix.com</p>
+            <p className="hover:underline cursor-pointer text-sm sm:text-base ">digiplixmediasolutions@gmail.com</p>
+            <p className="hover:underline cursor-pointer text-sm sm:text-base">+91 97524-27674</p>
           </div>
           <div>
             <h4 className="text-sm uppercase ml-3 sm:ml-0 tracking-wide mb-1 sm:mb-2 opacity-80">Visit Us</h4>
