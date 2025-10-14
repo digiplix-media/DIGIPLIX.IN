@@ -190,11 +190,12 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Mail className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-800 text-lg">Connect@digiplix.com</span>
+                <span  href="mailto:digiplixmediasolutions@gmail.com" className="text-gray-800 text-lg">digiplixmediasolutions@gmail.com</span>
+               
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-800 text-lg">+91 89899 13443</span>
+                <span className="text-gray-800 text-lg">+91 97524-27674</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600 w-5 h-5" />
