@@ -50,12 +50,24 @@ export default function Footer() {
         <div className="hidden  sm:grid grid-cols-3 sm:grid-cols-3 gap-8 sm:gap-10 text-base md:text-lg font-medium mt-8 sm:mt-20">
           <div>
             <h4 className="text-sm uppercase tracking-wide mb-1 sm:mb-2 opacity-80">Contact Us</h4>
-            <p className="hover:underline cursor-pointer text-sm sm:text-base ">digiplixmediasolutions@gmail.com</p>
-            <p className="hover:underline cursor-pointer text-sm sm:text-base">+91 97524-27674</p>
+            {/* <p className="hover:underline cursor-pointer text-sm sm:text-base ">digiplixmediasolutions@gmail.com</p> */}
+
+            <a href="mailto:digiplixmediasolutions@gmail.com" className="hover:underline cursor-pointer text-sm sm:text-base ">
+              digiplixmediasolutions@gmail.com
+            </a>
+
+
+            {/* <p className="hover:underline cursor-pointer text-sm sm:text-base">+91 97524-27674</p> */}
+            <p>
+              <a href="tel:+919752427674" className="hover:underline cursor-pointer text-sm sm:text-base">
+                +91 97524-27674
+              </a>
+            </p>
+
           </div>
           <div>
             <h4 className="text-sm uppercase ml-3 sm:ml-0 tracking-wide mb-1 sm:mb-2 opacity-80">Visit Us</h4>
-            <p className="text-sm sm:text-base ml-3 sm:ml-0">Indore, India <br /> MP 462016</p>
+            <p className="text-sm sm:text-base ml-3 sm:ml-0">Indore, India <br /> MP 452016</p>
           </div>
           <div>
             <h4 className="text-sm uppercase tracking-wide mb-1 sm:mb-2 opacity-80">Follow Us</h4>
@@ -63,12 +75,12 @@ export default function Footer() {
               <a href="https://www.instagram.com/digiplix.in/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/30 hover:bg-white hover:text-blue-600 transition">
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/30 hover:bg-white hover:text-blue-600 transition">
+              <a href="https://www.linkedin.com/in/dakshkumarvaidhy/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/30 hover:bg-white hover:text-blue-600 transition">
                 <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/30 hover:bg-white hover:text-blue-600 transition">
+              {/* <a href="#" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/30 hover:bg-white hover:text-blue-600 transition">
                 <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

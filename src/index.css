@@ -72,7 +72,7 @@ html, body {
 
 
 /* clientsscroll */
-@keyframes scroll {
+/* @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
@@ -80,4 +80,21 @@ html, body {
 .animate-scroll {
   display: inline-block;
   animation: scroll 25s linear infinite;
+} */
+
+
+/* Smooth infinite client scroll */
+@keyframes clientsScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.clients-scroll {
+  display: flex;
+  width: max-content;
+  animation: clientsScroll 30s linear infinite;
 }

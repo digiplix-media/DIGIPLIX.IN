@@ -190,12 +190,24 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Mail className="text-blue-600 w-5 h-5" />
-                <span  href="mailto:digiplixmediasolutions@gmail.com" className="text-gray-800 text-lg">digiplixmediasolutions@gmail.com</span>
+                {/* <span  href="mailto:digiplixmediasolutions@gmail.com" className="text-gray-800 text-lg">digiplixmediasolutions@gmail.com</span> */}
                
+                <a href="mailto:digiplixmediasolutions@gmail.com" className="text-gray-800 text-lg">
+    digiplixmediasolutions@gmail.com
+  </a>
+
+
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-blue-600 w-5 h-5" />
-                <span className="text-gray-800 text-lg">+91 97524-27674</span>
+                
+                {/* <span className="text-gray-800 text-lg">+91 97524-27674</span> */}
+
+                <a href="tel:+919752427674" className="text-gray-800 text-lg">
+    +91 97524-27674
+  </a>
+
+
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600 w-5 h-5" />
@@ -205,18 +217,18 @@ export default function Contact() {
 
             {/* Socials */}
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
+              <a href="https://www.linkedin.com/in/dakshkumarvaidhy/" target="_blank" className="text-gray-800 hover:text-blue-600 transition">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
+              <a href="https://www.instagram.com/digiplix.in/" target="_blank"  className="text-gray-800 hover:text-blue-600 transition">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
+              {/* <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Twitter className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-800 hover:text-blue-600 transition">
+              </a> */}
+              {/* <a href="#" className="text-gray-800 hover:text-blue-600 transition">
                 <Dribbble className="w-6 h-6" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
