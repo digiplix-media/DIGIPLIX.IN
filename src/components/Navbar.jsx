@@ -89,18 +89,17 @@ export default function Navbar() {
         </span>
       );
     });
-  
+
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all font-roboto duration-300 ${
-        isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all font-roboto duration-300 ${isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 font-roboto">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a
+          {/* <a
             href="#home"
             className="text-3xl font-extrabold tracking-tight flex items-center group"
           >
@@ -108,7 +107,21 @@ export default function Navbar() {
             <span className="text-blue-600">g</span>
             <span className="text-black">ipli</span>
             <span className="text-[#155dfc]">x</span>
+          </a> */}
+
+
+          <a
+            href="#home"
+            className="flex items-center group"
+          >
+            <img
+              src="/logo/digiplix-logo.png"
+              alt="Digiplix Logo"
+              className="h-8 md:h-10 w-auto object-contain"
+            />
           </a>
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block ">
@@ -150,11 +163,10 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       <div
-        className={`md:hidden absolute top-16 left-0 right-0 flex justify-center transition-all duration-500 ease-in-out ${
-          isMobileMenuOpen
+        className={`md:hidden absolute top-16 left-0 right-0 flex justify-center transition-all duration-500 ease-in-out ${isMobileMenuOpen
             ? "opacity-100 visible translate-y-0"
             : "opacity-0 invisible -translate-y-5"
-        }`}
+          }`}
       >
         <div
           className="bg-blue-600 backdrop-blur-lg border border-white/40 rounded-3xl shadow-lg px-10 py-8 text-center space-y-6 w-[90%] sm:w-[70%] md:w-[60%] mt-3 transition-all"

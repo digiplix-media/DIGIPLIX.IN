@@ -12,11 +12,13 @@ export default function Clients() {
   const textRef = useRef(null);
 
   const clientLogos = [
-    { name: "IIHCA", logo: "/logo/IIHCA-LOGO.png" },
+    { name: "IIHCA", logo: "/logo/IIHCA.jpg" },
     { name: "Excellance Education", logo: "/logo/excellanceeducation.jpg" },
-    { name: "Indori Official", logo: "/logo/indori.jpg" },
-    { name: "Starbucks", logo: "/logo/Starbucks.png" },
-    { name: "Madhya Pradesh", logo: "/logo/mp.jpg" },
+    { name: "Snitch", logo: "/logo/snitch.jpg" },
+    { name: "True Talks", logo: "/logo/truetalks.jpg" },
+    { name: "Svaraa", logo: "/logo/svaraa.jpg" },
+    { name: "Amoura", logo: "/logo/amoura.jpg" },
+    { name: "Kin's", logo: "/logo/kins.jpg" },
   ];
 
   // GSAP ScrollTrigger animations
@@ -91,7 +93,7 @@ export default function Clients() {
           <div className="pointer-events-none absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-white to-transparent z-20"></div>
 
           {/* Scrolling logos */}
-          <div className="inline-block whitespace-nowrap animate-scroll">
+          <div className="inline-block whitespace-nowrap clients-scroll ">
             {clientLogos.concat(clientLogos).map((client, i) => (
               <div
                 key={i}
@@ -100,7 +102,7 @@ export default function Clients() {
                 <img
                   src={client.logo}
                   alt={`${client.name} logo`}
-                  className="h-14 md:h-16 w-auto     transition duration-300"
+                  className="h-28 md:h-44 w-auto     transition duration-300"
                   // className="h-14 md:h-16 w-auto opacity-70 hover:opacity-100 filter grayscale hover:grayscale-0 transition duration-300"
                 />
               </div>
