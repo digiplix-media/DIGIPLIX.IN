@@ -3,14 +3,13 @@ import gsap from "gsap";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import projectsData from "../data/projects.json";
 
-const projects = [...projectsData].reverse();
-
 export default function Work() {
   const rootRef = useRef(null);
   const scrollRef = useRef(null);
   const splitHeading = useRef(null);
   const splitText = useRef(null);
   // const projects = projectsData;
+  const projects = [...projectsData].reverse();
 
   // -------------- HARD-CODED FILTER BUTTONS (exact UI order / labels)
   const FILTERS = [
@@ -76,8 +75,7 @@ export default function Work() {
       setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
     }
     setVisibleCount(9);
-  // }, [activeFilter, projects]);
-  }, [activeFilter]);
+  }, [activeFilter, projects]);
 
   // GSAP animation
 
