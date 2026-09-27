@@ -1,5 +1,17 @@
 [
   {
+    "id": 51,
+    "title": "Coming Soon",
+    "description": "Projects will be updated soon.",
+    "category": [
+      "Logo Design and Animation"
+    ],
+    "thumbnail": "/thumbnail/coming-soon.jpg",
+    "mediaType": "video",
+    "media": "/public/comingsoon.mp4",
+    "year": "2025"
+  },
+  {
     "id": 1,
     "title": "Highest paying jobs after 12th",
     "description": "Long-form YouTube edit with storytelling and motion graphics.",
