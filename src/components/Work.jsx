@@ -8,8 +8,7 @@ export default function Work() {
   const scrollRef = useRef(null);
   const splitHeading = useRef(null);
   const splitText = useRef(null);
-  // const projects = projectsData;
-  const projects = [...projectsData].reverse();
+  const projects = projectsData;
 
   // -------------- HARD-CODED FILTER BUTTONS (exact UI order / labels)
   const FILTERS = [
