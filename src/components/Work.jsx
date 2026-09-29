@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import projectsData from "../data/projects.json";
+import { getLenis } from "../lenis";
 
 const isPlaceholder = (project) =>
    String(project?.title || "").trim().toLowerCase() === "coming soon";
@@ -21,6 +22,7 @@ const isPlaceholder = (project) =>
 export default function Work() {
   const rootRef = useRef(null);
   const scrollRef = useRef(null);
+  const gridBoxRef = useRef(null);
   const splitHeading = useRef(null);
   const splitText = useRef(null);
   // const projects = projectsData;
@@ -93,12 +95,18 @@ export default function Work() {
   // }, [activeFilter, projects]);
 
   useEffect(() => {
+<<<<<<< HEAD
    const isComingSoon = (project) =>
      String(project?.title || "").trim().toLowerCase() === "coming soon";
 
    if (activeFilter === "All") {
      setFiltered(projects.filter((p) => !isComingSoon(p)));
      } else {
+=======
+    if (activeFilter === "All") {
+      setFiltered(projects.filter((p) => p.title !== "Coming Soon"));
+    } else {
+>>>>>>> ecb748b (Update portfolio: fix work grid scroll, projects order, footer size, favicon, coming soon filter)
       setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
   }
   setVisibleCount(9);
@@ -133,6 +141,21 @@ export default function Work() {
     }, rootRef);
     return () => ctx.revert();
   }, [filtered, activeFilter, visibleCount]);
+
+  // Pause Lenis when scrolling inside the grid box
+  useEffect(() => {
+    const box = gridBoxRef.current;
+    if (!box) return;
+
+    const handleWheel = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      box.scrollTop += e.deltaY;
+    };
+
+    box.addEventListener("wheel", handleWheel, { passive: false });
+    return () => box.removeEventListener("wheel", handleWheel);
+  }, []);
 
   // modal handlers
   const openModal = (p) => setModal({ open: true, project: p });
@@ -204,22 +227,17 @@ export default function Work() {
           </div>
         </div>
 
-        {/* Work grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.slice(0, visibleCount).map((p) => (
-            <article
-              key={p.id}
-              onClick={() => openModal(p)}
-              className="work-card relative overflow-hidden rounded-xl bg-white shadow-sm cursor-pointer group"
-            >
-              <div className="aspect-video bg-gray-100 overflow-hidden">
-                <img
-                  src={p.thumbnail}
-                  alt={p.title}
-                  className="w-full h-full object-cover transform transition duration-300 group-hover:scale-105"
-                />
-              </div>
+        {/* Work grid — scrollable box with top/bottom buttons */}
+        <div className="relative">
+          {/* Scroll Up button */}
+          <button
+            onClick={() => gridBoxRef.current?.scrollBy({ top: -300, behavior: "smooth" })}
+            className="absolute -top-4 left-1/2 -translate-x-1/2 z-10 bg-white border border-gray-200 shadow-md rounded-full w-8 h-8 flex items-center justify-center text-blue-600 hover:bg-blue-50 transition"
+          >
+            <ChevronLeft size={16} className="rotate-90" />
+          </button>
 
+<<<<<<< HEAD
               <div className="p-4">
                 <div className="flex items-start justify-between">
                   <h3 className="text-lg font-semibold text-gray-900">{p.title}</h3>
@@ -227,24 +245,52 @@ export default function Work() {
                    <span className="text-xs text-gray-500">
                       {Array.isArray(p.category) ? p.category.join(" · ") : p.category}
                      </span>
+=======
+          <div
+            ref={gridBoxRef}
+            className="h-[780px] overflow-y-scroll rounded-2xl border border-gray-200 p-4 shadow-inner bg-gray-50"
+            style={{ scrollbarWidth: "thin", scrollbarColor: "#2563eb #e0e7ff" }}
+          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filtered.map((p) => (
+              <article
+                key={p.id}
+                onClick={() => openModal(p)}
+                className="work-card relative overflow-hidden rounded-xl bg-white shadow-sm cursor-pointer group"
+              >
+                <div className="aspect-video bg-gray-100 overflow-hidden">
+                  <img
+                    src={p.thumbnail}
+                    alt={p.title}
+                    className="w-full h-full object-cover transform transition duration-300 group-hover:scale-105"
+                  />
+>>>>>>> ecb748b (Update portfolio: fix work grid scroll, projects order, footer size, favicon, coming soon filter)
                 </div>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-2">{p.description}</p>
-              </div>
-            </article>
-          ))}
-        </div>
 
-        {/* Show More */}
-        {visibleCount < filtered.length && (
-          <div className="flex justify-center mt-10">
-            <button
-              onClick={() => setVisibleCount((prev) => prev + 3)}
-              className="px-6 py-3 rounded-full bg-blue-600 text-white font-medium shadow hover:bg-blue-700 transition"
-            >
-              Show More
-            </button>
+                <div className="p-4">
+                  <span className="block text-[11px] font-medium text-blue-600 uppercase tracking-wide leading-tight mb-1">
+                    {getProjectTags(p)[0] || ""}
+                  </span>
+                  <h3 className="text-sm font-semibold text-gray-900 leading-snug break-words">
+                    {p.title}
+                  </h3>
+                  <p className="mt-1 text-xs text-gray-500 leading-relaxed line-clamp-2">
+                    {p.description}
+                  </p>
+                </div>
+              </article>
+            ))}
           </div>
-        )}
+          </div>
+
+          {/* Scroll Down button */}
+          <button
+            onClick={() => gridBoxRef.current?.scrollBy({ top: 300, behavior: "smooth" })}
+            className="absolute -bottom-4 left-1/2 -translate-x-1/2 z-10 bg-white border border-gray-200 shadow-md rounded-full w-8 h-8 flex items-center justify-center text-blue-600 hover:bg-blue-50 transition"
+          >
+            <ChevronRight size={16} className="rotate-90" />
+          </button>
+        </div>
       </div>
 
       {/* Modal */}

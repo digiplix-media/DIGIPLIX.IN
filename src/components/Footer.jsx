@@ -35,7 +35,7 @@ export default function Footer() {
   return (
     <footer
       ref={footerRef}
-      className="flex flex-col justify-between py-12  md:py-16 px-4 md:px-12 font-roboto min-h-[auto] md:min-h-screen "
+      className="flex flex-col justify-between py-12 md:py-16 px-4 md:px-12 font-roboto"
     >
       <div className="max-w-7xl mx-auto w-full">
         <div className="text-center sm:text-left">

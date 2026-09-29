@@ -3,14 +3,11 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../index.css";
-
 gsap.registerPlugin(ScrollTrigger);
-
 export default function Clients() {
   const rootRef = useRef(null);
   const headingRef = useRef(null);
   const textRef = useRef(null);
-
   const clientLogos = [
     { name: "IIHCA", logo: "/logo/IIHCA.jpg" },
     { name: "Excellance Education", logo: "/logo/excellanceeducation.jpg" },
@@ -20,7 +17,6 @@ export default function Clients() {
     { name: "Amoura", logo: "/logo/amoura.jpg" },
     { name: "Kin's", logo: "/logo/kins.jpg" },
   ];
-
   // GSAP ScrollTrigger animations
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -34,7 +30,6 @@ export default function Clients() {
           start: "top 85%",
         },
       });
-
       gsap.from(textRef.current, {
         x: 50,
         opacity: 0,
@@ -47,14 +42,11 @@ export default function Clients() {
         },
       });
     }, rootRef);
-
     return () => ctx.revert();
   }, []);
-
   return (
     <section ref={rootRef} className="pt-16 md:py-24 bg-white font-roboto">
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-6">
-        
         {/* Header Section - Left heading, Right paragraph */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 md:mb-24 items-start">
           {/* Left Heading */}
@@ -64,10 +56,9 @@ export default function Clients() {
               className="text-4xl md:text-6xl lg:text-7xl  font-extrabold sm:leading-[0.9] text-black sm:tracking-tight "
             >
               {/* text-4xl md:text-6xl lg:text-7xl  */}
-              <span className="text-blue-600"> Brands</span> We’ve <br /> Partnered With
+              <span className="text-blue-600"> Brands</span> We've <br /> Partnered With
             </h2>
           </div>
-
           {/* Right Paragraph */}
           <div className="lg:pt-4">
             <p
@@ -79,19 +70,17 @@ export default function Clients() {
             <span className="text-black">Di</span>
              <span className="text-blue-600">g</span>
              <span className="text-black">ipli</span>
-            <span className="text-blue-600">x</span></span>, we’ve collaborated with 
+            <span className="text-blue-600">x</span></span>, we've collaborated with 
               ambitious startups and global enterprises alike. Every project is a partnership, and these 
-              logos represent just a few of the amazing brands we’ve worked with.
+              logos represent just a few of the amazing brands we've worked with.
             </p>
           </div>
         </div>
-
         {/* Client Logos - Infinite Scroll */}
         <div className="relative overflow-hidden">
           {/* Fade edges */}
           <div className="pointer-events-none absolute top-0 left-0 h-full w-24 bg-gradient-to-r from-white to-transparent z-20"></div>
           <div className="pointer-events-none absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-white to-transparent z-20"></div>
-
           {/* Scrolling logos */}
           <div className="inline-block whitespace-nowrap clients-scroll ">
             {clientLogos.concat(clientLogos).map((client, i) => (
