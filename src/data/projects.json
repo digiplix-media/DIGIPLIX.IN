@@ -1,5 +1,189 @@
 [
   {
+    "id": 32,
+    "title": "Short-form Video",
+    "description": "Short-form video edit.",
+    "category": [
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel9.png",
+    "mediaType": "video",
+    "media": "/LSH 2 final.mp4",
+    "year": "2025"
+  },
+  {
+    "id": 33,
+    "title": "Short-form Video",
+    "description": "Short-form video edit.",
+    "category": [
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel10.png",
+    "mediaType": "video",
+    "media": "/LSH 3 final.mp4",
+    "year": "2025"
+  },
+  {
+    "id": 34,
+    "title": "Short-form Video",
+    "description": "Short-form video edit.",
+    "category": [
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel11.png",
+    "mediaType": "video",
+    "media": "/LSH 8 FINAL.mp4",
+    "year": "2025"
+  },
+  {
+    "id": 24,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel1.png",
+    "mediaType": "instagram",
+    "media": "DVyWTG0E_Tu",
+    "year": "2025"
+  },
+  {
+    "id": 25,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel2.png",
+    "mediaType": "instagram",
+    "media": "DaRyYsWzfwG",
+    "year": "2025"
+  },
+  {
+    "id": 26,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel3.png",
+    "mediaType": "instagram",
+    "media": "DYUdV_tzXRR",
+    "year": "2025"
+  },
+  {
+    "id": 27,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel4.png",
+    "mediaType": "instagram",
+    "media": "DMc3GQPvMpT",
+    "year": "2025"
+  },
+  {
+    "id": 28,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/newreel5.png",
+    "mediaType": "instagram",
+    "media": "Dcs-RIDkgJp",
+    "year": "2025"
+  },
+  {
+    "id": 29,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Management"
+    ],
+    "thumbnail": "/thumbnail/newreel6.png",
+    "mediaType": "instagram",
+    "media": "DcfWk5TIyES",
+    "year": "2025"
+  },
+  {
+    "id": 30,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Management"
+    ],
+    "thumbnail": "/thumbnail/newreel7.png",
+    "mediaType": "instagram",
+    "media": "DcQ0l2ZTJSJ",
+    "year": "2025"
+  },
+  {
+    "id": 31,
+    "title": "Instagram Reel",
+    "description": "Social media video edit.",
+    "category": [
+      "Social Media Management"
+    ],
+    "thumbnail": "/thumbnail/newreel8.png",
+    "mediaType": "instagram",
+    "media": "Dcvj0-zNXog",
+    "year": "2025"
+  },
+  {
+    "id": 23,
+    "title": "Instagram Reel",
+    "description": "Entertaining lifestyle reel.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing",
+      "Social Media Management",
+      "Content Creator"
+    ],
+    "thumbnail": "/thumbnail/20.png",
+    "mediaType": "instagram",
+    "media": "DHCm3DXBb5X",
+    "year": "2025"
+  },
+  {
+    "id": 22,
+    "title": "Instagram Reel",
+    "description": "Promotional reel for social growth.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing",
+      "Social Media Management",
+      "Content Creator"
+    ],
+    "thumbnail": "/thumbnail/17.jpg",
+    "mediaType": "instagram",
+    "media": "DOLizV5k8_g",
+    "year": "2025"
+  },
+  {
+    "id": 21,
+    "title": "Instagram Reel",
+    "description": "Creative branded content.",
+    "category": [
+      "Social Media Videos",
+      "Short-form Video Editing",
+      "Social Media Management",
+      "Content Creator"
+    ],
+    "thumbnail": "/thumbnail/18.jpg",
+    "mediaType": "instagram",
+    "media": "DMP2tOov-3k",
+    "year": "2025"
+  },
+
+-----------------------------------------------------
+  {
     "id": 1,
     "title": "Highest paying jobs after 12th",
     "description": "Long-form YouTube edit with storytelling and motion graphics.",
@@ -278,188 +462,6 @@
     "thumbnail": "/thumbnail/monthlysip.jpg",
     "mediaType": "instagram",
     "media": "DKWCQ95Bh8d",
-    "year": "2025"
-  },
-  {
-    "id": 21,
-    "title": "Instagram Reel",
-    "description": "Creative branded content.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/18.jpg",
-    "mediaType": "instagram",
-    "media": "DMP2tOov-3k",
-    "year": "2025"
-  },
-  {
-    "id": 22,
-    "title": "Instagram Reel",
-    "description": "Promotional reel for social growth.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/17.jpg",
-    "mediaType": "instagram",
-    "media": "DOLizV5k8_g",
-    "year": "2025"
-  },
-  {
-    "id": 23,
-    "title": "Instagram Reel",
-    "description": "Entertaining lifestyle reel.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/20.png",
-    "mediaType": "instagram",
-    "media": "DHCm3DXBb5X",
-    "year": "2025"
-  },
-  {
-    "id": 24,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel1.png",
-    "mediaType": "instagram",
-    "media": "DVyWTG0E_Tu",
-    "year": "2025"
-  },
-  {
-    "id": 25,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel2.png",
-    "mediaType": "instagram",
-    "media": "DaRyYsWzfwG",
-    "year": "2025"
-  },
-  {
-    "id": 26,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel3.png",
-    "mediaType": "instagram",
-    "media": "DYUdV_tzXRR",
-    "year": "2025"
-  },
-  {
-    "id": 27,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel4.png",
-    "mediaType": "instagram",
-    "media": "DMc3GQPvMpT",
-    "year": "2025"
-  },
-  {
-    "id": 28,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel5.png",
-    "mediaType": "instagram",
-    "media": "Dcs-RIDkgJp",
-    "year": "2025"
-  },
-  {
-    "id": 29,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Management"
-    ],
-    "thumbnail": "/thumbnail/newreel6.png",
-    "mediaType": "instagram",
-    "media": "DcfWk5TIyES",
-    "year": "2025"
-  },
-  {
-    "id": 30,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Management"
-    ],
-    "thumbnail": "/thumbnail/newreel7.png",
-    "mediaType": "instagram",
-    "media": "DcQ0l2ZTJSJ",
-    "year": "2025"
-  },
-  {
-    "id": 31,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
-    "category": [
-      "Social Media Management"
-    ],
-    "thumbnail": "/thumbnail/newreel8.png",
-    "mediaType": "instagram",
-    "media": "Dcvj0-zNXog",
-    "year": "2025"
-  },
-  {
-    "id": 32,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
-    "category": [
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel9.png",
-    "mediaType": "video",
-    "media": "/LSH 2 final.mp4",
-    "year": "2025"
-  },
-  {
-    "id": 33,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
-    "category": [
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel10.png",
-    "mediaType": "video",
-    "media": "/LSH 3 final.mp4",
-    "year": "2025"
-  },
-  {
-    "id": 34,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
-    "category": [
-      "Short-form Video Editing"
-    ],
-    "thumbnail": "/thumbnail/newreel11.png",
-    "mediaType": "video",
-    "media": "/LSH 8 FINAL.mp4",
     "year": "2025"
   },
   {
