@@ -3,12 +3,28 @@ import gsap from "gsap";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import projectsData from "../data/projects.json";
 
+const isPlaceholder = (project) =>
+   String(project?.title || "").trim().toLowerCase() === "coming soon";
+
+ // Later entries in projects.json are newer. Show those first in All and
+ // every category. Keep "Coming Soon" cards at the end of each list.
+ const projectsNewestFirst = [...projectsData]
+   .map((project, index) => ({ project, index }))
+   .sort((a, b) => {
+     const aPlaceholder = isPlaceholder(a.project);
+     const bPlaceholder = isPlaceholder(b.project);
+     if (aPlaceholder !== bPlaceholder) return aPlaceholder ? 1 : -1;
+     return b.index - a.index;
+   })
+   .map(({ project }) => project);
+
 export default function Work() {
   const rootRef = useRef(null);
   const scrollRef = useRef(null);
   const splitHeading = useRef(null);
   const splitText = useRef(null);
-  const projects = projectsData;
+  // const projects = projectsData;
+  const projects = projectsNewestFirst;
 
   // -------------- HARD-CODED FILTER BUTTONS (exact UI order / labels)
   const FILTERS = [
