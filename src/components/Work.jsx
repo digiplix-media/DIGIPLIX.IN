@@ -83,14 +83,26 @@ export default function Work() {
   }, []);
 
   // filter projects whenever activeFilter changes
+  // useEffect(() => {
+  //   if (activeFilter === "All") {
+  //     setFiltered(projects);
+  //   } else {
+  //     setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
+  //   }
+  //   setVisibleCount(9);
+  // }, [activeFilter, projects]);
+
   useEffect(() => {
-    if (activeFilter === "All") {
-      setFiltered(projects);
-    } else {
+   const isComingSoon = (project) =>
+     String(project?.title || "").trim().toLowerCase() === "coming soon";
+
+   if (activeFilter === "All") {
+     setFiltered(projects.filter((p) => !isComingSoon(p)));
+     } else {
       setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
-    }
-    setVisibleCount(9);
-  }, [activeFilter, projects]);
+  }
+  setVisibleCount(9);
+}, [activeFilter, projects]);
 
   // GSAP animation
 
