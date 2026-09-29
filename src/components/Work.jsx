@@ -211,7 +211,10 @@ export default function Work() {
               <div className="p-4">
                 <div className="flex items-start justify-between">
                   <h3 className="text-lg font-semibold text-gray-900">{p.title}</h3>
-                  <span className="text-xs text-gray-500">{p.year}</span>
+                  {/* <span className="text-xs text-gray-500">{p.year}</span> */}
+                   <span className="text-xs text-gray-500">
+                      {Array.isArray(p.category) ? p.category.join(" · ") : p.category}
+                     </span>
                 </div>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">{p.description}</p>
               </div>

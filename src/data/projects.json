@@ -1,6 +1,6 @@
 [
   {
-    "id": 32,
+    "id": 1,
     "title": "Coming Soon",
     "description": "More projects will be added soon.",
     "category": [
@@ -8,11 +8,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 33,
+    "id": 2,
     "title": "Coming Soon",
     "description": "Projects will be updated soon.",
     "category": [
@@ -20,11 +19,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 34,
+    "id": 3,
     "title": "Coming Soon",
     "description": "Projects will be updated soon.",
     "category": [
@@ -32,11 +30,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 35,
+    "id": 4,
     "title": "Coming Soon",
     "description": "Projects will be updated soon.",
     "category": [
@@ -44,11 +41,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 36,
+    "id": 5,
     "title": "Coming Soon",
     "description": "Projects will be updated soon.",
     "category": [
@@ -56,11 +52,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 37,
+    "id": 6,
     "title": "Coming Soon",
     "description": "Projects will be updated soon.",
     "category": [
@@ -68,11 +63,10 @@
     ],
     "thumbnail": "/thumbnail/coming-soon.jpg",
     "mediaType": "video",
-    "media": "/public/comingsoon.mp4",
-    "year": "2025"
+    "media": "/public/comingsoon.mp4"
   },
   {
-    "id": 1,
+    "id": 7,
     "title": "Highest paying jobs after 12th",
     "description": "Long-form YouTube edit with storytelling and motion graphics.",
     "category": [
@@ -80,11 +74,10 @@
     ],
     "thumbnail": "/thumbnail/youtube1.jpg",
     "mediaType": "youtube",
-    "media": "https://www.youtube.com/embed/xtkBlOAEjDY?si=w_Oop9cQxK_ygPAf",
-    "year": "2025"
+    "media": "https://www.youtube.com/embed/xtkBlOAEjDY?si=w_Oop9cQxK_ygPAf"
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Kolkata Doctor Case Full Story",
     "description": "Full video edit for social media content.",
     "category": [
@@ -92,11 +85,10 @@
     ],
     "thumbnail": "/thumbnail/youtube2.jpg",
     "mediaType": "youtube",
-    "media": "https://www.youtube.com/embed/AHOAZ1AT41k?si=jHADtL9i0k8hatOI",
-    "year": "2025"
+    "media": "https://www.youtube.com/embed/AHOAZ1AT41k?si=jHADtL9i0k8hatOI"
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "Career options after 12th?",
     "description": "Edited video for YouTube.",
     "category": [
@@ -104,35 +96,32 @@
     ],
     "thumbnail": "/thumbnail/youtube3.jpg",
     "mediaType": "youtube",
-    "media": "https://www.youtube.com/embed/Y7p8bkeS33Q?si=I3S7ErQMKwIy9gTF",
-    "year": "2025"
+    "media": "https://www.youtube.com/embed/Y7p8bkeS33Q?si=I3S7ErQMKwIy9gTF"
   },
   {
-    "id": 4,
-    "title": "Instagram Reel for Ads",
-    "description": "Short-form Instagram reel showcasing edits.",
+    "id": 10,
+    "title": "Indoreofficials",
+    "description": "Creative short video edit.",
     "category": [
       "Social Media Videos"
     ],
     "thumbnail": "/thumbnail/Svaraa.jpg",
     "mediaType": "instagram",
-    "media": "DNs6Ejr3HlT",
-    "year": "2025"
+    "media": "DNs6Ejr3HlT"
   },
   {
-    "id": 5,
-    "title": "Instagram Reel for brand promotion",
-    "description": "Engaging short-form edit for brand promotion.",
+    "id": 11,
+    "title": "Indoreofficials",
+    "description": "Creative short video edit.",
     "category": [
       "Social Media Videos"
     ],
     "thumbnail": "/thumbnail/kins.jpg",
     "mediaType": "instagram",
-    "media": "DLz9TIRz2K3",
-    "year": "2025"
+    "media": "DLz9TIRz2K3"
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Indoreofficials",
     "description": "Creative short video edit.",
     "category": [
@@ -140,11 +129,10 @@
     ],
     "thumbnail": "/thumbnail/fyers.jpg",
     "mediaType": "instagram",
-    "media": "DQJfC1JEgrM",
-    "year": "2025"
+    "media": "DQJfC1JEgrM"
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Indoreofficials",
     "description": "Product shoot styled as engaging reel.",
     "category": [
@@ -152,11 +140,10 @@
     ],
     "thumbnail": "/thumbnail/amouradpjewellers.jpg",
     "mediaType": "instagram",
-    "media": "DMAIX_WNBQF",
-    "year": "2025"
+    "media": "DMAIX_WNBQF"
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Iamharshvikas",
     "description": "Reel edit for Influencer.",
     "category": [
@@ -164,11 +151,10 @@
     ],
     "thumbnail": "/thumbnail/iamharshvikas.jpg",
     "mediaType": "instagram",
-    "media": "DNtDfxPZGYy",
-    "year": "2025"
+    "media": "DNtDfxPZGYy"
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Indoreofficials",
     "description": "Short brand video content.",
     "category": [
@@ -176,11 +162,10 @@
     ],
     "thumbnail": "/thumbnail/snitchstore.jpg",
     "mediaType": "instagram",
-    "media": "DAIeT_IxRuB",
-    "year": "2025"
+    "media": "DAIeT_IxRuB"
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Indoreofficials",
     "description": "Short reel content for product.",
     "category": [
@@ -188,11 +173,10 @@
     ],
     "thumbnail": "/thumbnail/snitch.jpg",
     "mediaType": "instagram",
-    "media": "DHGcUsGvff7",
-    "year": "2025"
+    "media": "DHGcUsGvff7"
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Indoreofficials",
     "description": "Product showcase reel.",
     "category": [
@@ -200,11 +184,10 @@
     ],
     "thumbnail": "/thumbnail/trijalrestaurant.jpg",
     "mediaType": "instagram",
-    "media": "DNiak6ixYDo",
-    "year": "2025"
+    "media": "DNiak6ixYDo"
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Indoreofficials",
     "description": "Lifestyle reel edit.",
     "category": [
@@ -212,11 +195,10 @@
     ],
     "thumbnail": "/thumbnail/amaya.jpg",
     "mediaType": "instagram",
-    "media": "DMmdqUPRtma",
-    "year": "2025"
+    "media": "DMmdqUPRtma"
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "Tarunmalhotraa",
     "description": "Creative engaging editing",
     "category": [
@@ -226,53 +208,43 @@
     ],
     "thumbnail": "/thumbnail/tarunmalhotraaa.jpg",
     "mediaType": "instagram",
-    "media": "DBDEvMmPbMv",
-    "year": "2025"
+    "media": "DBDEvMmPbMv"
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Tarunmalhotraa",
     "description": "Creative engaging editing",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Product Shoots"
+      "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/Tarunmalhotraaa.jpg",
     "mediaType": "instagram",
-    "media": "C5pRbxFpgdR",
-    "year": "2025"
+    "media": "C5pRbxFpgdR"
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "Fin_Saheli",
     "description": "Creative engaging editing",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Product Shoots"
+      "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/fin_saheli.jpg",
     "mediaType": "instagram",
-    "media": "DLoP8hiPE45",
-    "year": "2025"
+    "media": "DLoP8hiPE45"
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Fin_Saheli",
     "description": "Creative engaging editing",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Product Shoots"
+      "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/fin_saheli .jpg",
     "mediaType": "instagram",
-    "media": "DHkLghBtvlk",
-    "year": "2025"
+    "media": "DHkLghBtvlk"
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Dailyscoop_withpurtika",
     "description": "Creative engaging editing.",
     "category": [
@@ -280,11 +252,10 @@
     ],
     "thumbnail": "/thumbnail/dailyscoop_withpurtika.jpg",
     "mediaType": "instagram",
-    "media": "DPBvwdjk71Q",
-    "year": "2025"
+    "media": "DPBvwdjk71Q"
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Dailyscoop_withpurtika",
     "description": "Creative engaging editing.",
     "category": [
@@ -292,11 +263,10 @@
     ],
     "thumbnail": "/thumbnail/dailyscoop_withpurtika .jpg",
     "mediaType": "instagram",
-    "media": "DOYZ1rDk8hQ",
-    "year": "2025"
+    "media": "DOYZ1rDk8hQ"
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "Dailyscoop_withpurtika",
     "description": "Creative engaging editing.",
     "category": [
@@ -304,11 +274,10 @@
     ],
     "thumbnail": "/thumbnail/tamilnadu.jpg",
     "mediaType": "instagram",
-    "media": "DOTM_7oAeJC",
-    "year": "2025"
+    "media": "DOTM_7oAeJC"
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "Fin_saheli",
     "description": "Creative editing",
     "category": [
@@ -316,294 +285,219 @@
     ],
     "thumbnail": "/thumbnail/monthlysip.jpg",
     "mediaType": "instagram",
-    "media": "DKWCQ95Bh8d",
-    "year": "2025"
+    "media": "DKWCQ95Bh8d"
   },
   {
-    "id": 22,
+    "id": 27,
     "title": "Shetalks_finance",
     "description": "Creative Engaging Editing",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/22",
     "mediaType": "instagram",
-    "media": "DAmu23iz6cm",
-    "year": "2025"
-  },
-  {
-    "id": 23,
-    "title": "Shetalks_finance",
-    "description": "Creative Engaging Editing",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/23",
-    "mediaType": "instagram",
-    "media": "DAXSOPQvp05",
-    "year": "2025"
-  },
-  {
-    "id": 24,
-    "title": "Instagram Reel",
-    "description": "Fun engaging reel edit.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/24",
-    "mediaType": "instagram",
-    "media": "DHFLnwvTpy8",
-    "year": "2025"
+    "media": "DAmu23iz6cm"
   },
   {
     "id": 28,
-    "title": "Instagram Reel",
-    "description": "Short-form content creator reel.",
+    "title": "Shetalks_finance",
+    "description": "Creative Engaging Editing",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
     ],
-    "thumbnail": "/thumbnail/28",
+    "thumbnail": "/thumbnail/23",
     "mediaType": "instagram",
-    "media": "DNtDfxPZGYy",
-    "year": "2025"
+    "media": "DAXSOPQvp05"
   },
   {
     "id": 29,
-    "title": "Instagram Reel",
-    "description": "Social growth product reel.",
+    "title": "Iamharshvikas",
+    "description": "Reel edit for Influencer.",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
     ],
-    "thumbnail": "/thumbnail/29",
+    "thumbnail": "/thumbnail/28",
     "mediaType": "instagram",
-    "media": "DNWHcD6S4PO",
-    "year": "2025"
+    "media": "DNtDfxPZGYy"
   },
   {
     "id": 30,
-    "title": "IIHCA HATIMA",
-    "description": "UGC style content edit.",
+    "title": "Iamharshvikas",
+    "description": "Reel edit for Influencer.",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
     ],
-    "thumbnail": "/thumbnail/30",
+    "thumbnail": "/thumbnail/29",
     "mediaType": "instagram",
-    "media": "DJMTLutvMYm",
-    "year": "2025"
+    "media": "DNWHcD6S4PO"
   },
   {
     "id": 31,
     "title": "IIHCA HATIMA",
     "description": "UGC style content edit.",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/30",
+    "mediaType": "instagram",
+    "media": "DJMTLutvMYm"
+  },
+  {
+    "id": 32,
+    "title": "IIHCA HATIMA",
+    "description": "UGC style content edit.",
+    "category": [
+      "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/31",
     "mediaType": "instagram",
-    "media": "DLWbuFMvFrn",
-    "year": "2025"
+    "media": "DLWbuFMvFrn"
   },
   {
-    "id": 38,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
+    "id": 33,
+    "title": "LAKSHORE MALL HYDERABAD",
+    "description": "High Quality Cinematic video edit.",
     "category": [
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel9.png",
     "mediaType": "video",
-    "media": "/LSH 2 final.mp4",
-    "year": "2025"
+    "media": "/LSH 2 final.mp4"
   },
   {
-    "id": 39,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
+    "id": 34,
+    "title": "LAKSHORE MALL HYDERABAD",
+    "description": "High Quality Cinematic video edit.",
     "category": [
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel10.png",
     "mediaType": "video",
-    "media": "/LSH 3 final.mp4",
-    "year": "2025"
+    "media": "/LSH 3 final.mp4"
   },
   {
-    "id": 40,
-    "title": "Short-form Video",
-    "description": "Short-form video edit.",
+    "id": 35,
+    "title": "LAKSHORE MALL HYDERABAD",
+    "description": "High Quality Cinematic video edit.",
     "category": [
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel11.png",
     "mediaType": "video",
-    "media": "/LSH 8 FINAL.mp4",
-    "year": "2025"
+    "media": "/LSH 8 FINAL.mp4"
   },
   {
-    "id": 41,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
+    "id": 36,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
     "category": [
       "Social Media Videos",
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel1.png",
     "mediaType": "instagram",
-    "media": "DVyWTG0E_Tu",
-    "year": "2025"
+    "media": "DVyWTG0E_Tu"
   },
   {
-    "id": 42,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
+    "id": 37,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
     "category": [
       "Social Media Videos",
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel2.png",
     "mediaType": "instagram",
-    "media": "DaRyYsWzfwG",
-    "year": "2025"
+    "media": "DaRyYsWzfwG"
   },
   {
-    "id": 43,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
+    "id": 38,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
     "category": [
       "Social Media Videos",
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel3.png",
     "mediaType": "instagram",
-    "media": "DYUdV_tzXRR",
-    "year": "2025"
+    "media": "DYUdV_tzXRR"
   },
   {
-    "id": 44,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
+    "id": 39,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
     "category": [
       "Social Media Videos",
       "Short-form Video Editing"
     ],
     "thumbnail": "/thumbnail/newreel4.png",
     "mediaType": "instagram",
-    "media": "DMc3GQPvMpT",
-    "year": "2025"
+    "media": "DMc3GQPvMpT"
   },
   {
-    "id": 45,
-    "title": "Instagram Reel",
-    "description": "Social media video edit.",
+    "id": 40,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
     "category": [
-      "Social Media Videos",
       "Short-form Video Editing"
     ],
-    "thumbnail": "/thumbnail/newreel5.png",
+    "thumbnail": "/thumbnail/17.jpg",
     "mediaType": "instagram",
-    "media": "Dcs-RIDkgJp",
-    "year": "2025"
+    "media": "DOLizV5k8_g"
   },
   {
-    "id": 46,
-    "title": "Instagram Reel",
+    "id": 41,
+    "title": "Dailyscoop_withpurtika",
+    "description": "Creative engaging editing.",
+    "category": [
+      "Short-form Video Editing"
+    ],
+    "thumbnail": "/thumbnail/18.jpg",
+    "mediaType": "instagram",
+    "media": "DMP2tOov-3k"
+  },
+  {
+    "id": 42,
+    "title": "JRB INVESTMENT",
     "description": "Social media video edit.",
     "category": [
       "Social Media Management"
     ],
     "thumbnail": "/thumbnail/newreel6.png",
     "mediaType": "instagram",
-    "media": "DcfWk5TIyES",
-    "year": "2025"
+    "media": "DcfWk5TIyES"
   },
   {
-    "id": 47,
-    "title": "Instagram Reel",
+    "id": 43,
+    "title": "JRB INVESTMENT",
     "description": "Social media video edit.",
     "category": [
       "Social Media Management"
     ],
     "thumbnail": "/thumbnail/newreel7.png",
     "mediaType": "instagram",
-    "media": "DcQ0l2ZTJSJ",
-    "year": "2025"
+    "media": "DcQ0l2ZTJSJ"
   },
   {
-    "id": 48,
-    "title": "Instagram Reel",
+    "id": 44,
+    "title": "JRB INVESTMENT",
     "description": "Social media video edit.",
     "category": [
       "Social Media Management"
     ],
     "thumbnail": "/thumbnail/newreel8.png",
     "mediaType": "instagram",
-    "media": "Dcvj0-zNXog",
-    "year": "2025"
+    "media": "Dcvj0-zNXog"
   },
   {
-    "id": 49,
-    "title": "Instagram Reel",
-    "description": "Entertaining lifestyle reel.",
+    "id": 45,
+    "title": "SET Institute",
+    "description": "Social media video edit.",
     "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
+      "Short-form Video Editing"
     ],
-    "thumbnail": "/thumbnail/20.png",
+    "thumbnail": "/thumbnail/newreel5.png",
     "mediaType": "instagram",
-    "media": "DHCm3DXBb5X",
-    "year": "2025"
-  },
-  {
-    "id": 50,
-    "title": "Instagram Reel",
-    "description": "Promotional reel for social growth.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/17.jpg",
-    "mediaType": "instagram",
-    "media": "DOLizV5k8_g",
-    "year": "2025"
-  },
-  {
-    "id": 51,
-    "title": "Instagram Reel",
-    "description": "Creative branded content.",
-    "category": [
-      "Social Media Videos",
-      "Short-form Video Editing",
-      "Social Media Management",
-      "Content Creator"
-    ],
-    "thumbnail": "/thumbnail/18.jpg",
-    "mediaType": "instagram",
-    "media": "DMP2tOov-3k",
-    "year": "2025"
+    "media": "Dcs-RIDkgJp"
   }
 ]
