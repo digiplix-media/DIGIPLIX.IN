@@ -25,7 +25,6 @@ export default function Work() {
   const gridBoxRef = useRef(null);
   const splitHeading = useRef(null);
   const splitText = useRef(null);
-  // const projects = projectsData;
   const projects = projectsNewestFirst;
 
   // -------------- HARD-CODED FILTER BUTTONS (exact UI order / labels)
@@ -84,29 +83,14 @@ export default function Work() {
     if (scrollRef.current) scrollRef.current.scrollLeft = 0;
   }, []);
 
-  // filter projects whenever activeFilter changes
-  // useEffect(() => {
-  //   if (activeFilter === "All") {
-  //     setFiltered(projects);
-  //   } else {
-  //     setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
-  //   }
-  //   setVisibleCount(9);
-  // }, [activeFilter, projects]);
 
-  useEffect(() => {
-<<<<<<< HEAD
+ useEffect(() => {
    const isComingSoon = (project) =>
      String(project?.title || "").trim().toLowerCase() === "coming soon";
 
    if (activeFilter === "All") {
      setFiltered(projects.filter((p) => !isComingSoon(p)));
      } else {
-=======
-    if (activeFilter === "All") {
-      setFiltered(projects.filter((p) => p.title !== "Coming Soon"));
-    } else {
->>>>>>> ecb748b (Update portfolio: fix work grid scroll, projects order, footer size, favicon, coming soon filter)
       setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
   }
   setVisibleCount(9);
@@ -236,16 +220,6 @@ export default function Work() {
           >
             <ChevronLeft size={16} className="rotate-90" />
           </button>
-
-<<<<<<< HEAD
-              <div className="p-4">
-                <div className="flex items-start justify-between">
-                  <h3 className="text-lg font-semibold text-gray-900">{p.title}</h3>
-                  {/* <span className="text-xs text-gray-500">{p.year}</span> */}
-                   <span className="text-xs text-gray-500">
-                      {Array.isArray(p.category) ? p.category.join(" · ") : p.category}
-                     </span>
-=======
           <div
             ref={gridBoxRef}
             className="h-[780px] overflow-y-scroll rounded-2xl border border-gray-200 p-4 shadow-inner bg-gray-50"
@@ -264,7 +238,6 @@ export default function Work() {
                     alt={p.title}
                     className="w-full h-full object-cover transform transition duration-300 group-hover:scale-105"
                   />
->>>>>>> ecb748b (Update portfolio: fix work grid scroll, projects order, footer size, favicon, coming soon filter)
                 </div>
 
                 <div className="p-4">
