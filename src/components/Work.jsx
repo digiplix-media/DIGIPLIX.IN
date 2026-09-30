@@ -95,18 +95,12 @@ export default function Work() {
   // }, [activeFilter, projects]);
 
   useEffect(() => {
-<<<<<<< HEAD
    const isComingSoon = (project) =>
      String(project?.title || "").trim().toLowerCase() === "coming soon";
 
    if (activeFilter === "All") {
      setFiltered(projects.filter((p) => !isComingSoon(p)));
      } else {
-=======
-    if (activeFilter === "All") {
-      setFiltered(projects.filter((p) => p.title !== "Coming Soon"));
-    } else {
->>>>>>> ecb748b (Update portfolio: fix work grid scroll, projects order, footer size, favicon, coming soon filter)
       setFiltered(projects.filter((p) => projectMatchesFilter(p, activeFilter)));
   }
   setVisibleCount(9);
